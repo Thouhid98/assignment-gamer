@@ -380,21 +380,25 @@
 @media screen and (max-width:576px) {
    .nav-container{
     flex-direction: column; 
-    margin-top: 30px;  
+    margin-top: 60px;  
    }
    .web-title{
     justify-content: center;
     margin-left: 30px;
+    margin-top: 30px;
     margin-bottom: 30px;
+    padding-top: 30px;
    }
    .nav-ul{
     flex-direction: column;
-    margin-top: -20px;
-    margin-bottom: 20px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    padding-bottom: 60px;
    }
    .banner{
     flex-direction: column;
     margin-top: 70px;
+    
    }
    .banner-text{
     width: 100%;
@@ -404,7 +408,7 @@
     margin-left:60px;
    }
    .banner-img{
-    width:100%;
+    width:400px;
     margin-left: 50%;
     margin-top: 40px;
     margin-bottom: 0px;
@@ -415,7 +419,26 @@
    #online-title{
     font-size: 30px;
     width: 70%;
-    margin-left: 20%;
+    margin-left: 15%;
+   }
+   #games-para1{
+    font-size: 18px;
+    margin-left: -5px;
+    width: 280px;
+   }
+   #games-para2{
+    font-size: 18px;
+    width: 280px;
+   }
+   #games-para3{
+    font-size: 18px;
+    margin-left: 25px;
+    width: 280px;
+   }
+   #games-para4{
+    font-size: 18px;
+    margin-left: 50px;
+    width: 280px;
    }
    #online-des{
     width: 50%;
@@ -423,25 +446,42 @@
    }
    #games-img1{
     width: 70%;
+    margin-left: -15px;
+    margin-right: auto;
+
    }
    #games-img2{
     width: 70%;
+    margin-left: 5px;
+    margin-right: auto;
    }
    #games-img3{
     width: 70%;
+    margin-left: 27px;
+    margin-right: auto;
    }
    #games-img4{
     width: 70%;
+    margin-left: 50px;
+    margin-right: auto;
    }
    .playinstant{
     flex-direction: column;
+    margin-top: -10px;
+    margin-bottom: 0px;
+   }
+   .playinstant1{
+    margin-top: -50%;
+    padding-top: -50%;
    }
    #play-img1{
-    margin-left: 20px;
-    height: 20px;
+    margin-top: -40%;
+    margin-left: 40px;
+ 
    }
    #play-img2{
     width: 40%;
+    margin-left: 2px;
    }
    .playinstant-content{
     text-align: center;
@@ -457,12 +497,20 @@
     margin: 20px;
    }
    .archade{
-    grid-template-columns: repeat(3, 20%);
+    grid-template-columns: repeat(2, 30%);
     margin-left: 0px;
+    align-items: center;
+    justify-content: center;
    }
    .archade2{
-    grid-template-columns: repeat(3, 80px);
-    margin-left: 0px;
+    grid-template-columns: repeat(2, 30%);
+    margin-left: 75px;
+   }
+   .archade-content{
+    padding: 20%;
+   }
+   .archade-content3{
+    padding: 20%;
    }
    .footer-para{
     flex-wrap: wrap;
@@ -472,4 +520,60 @@
    .footer-para2{
     flex-wrap: wrap;
    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .nav-container{
+        justify-content: center;
+    }  
+    .web-title{
+        width: auto;
+        margin-left: 10%;
+    }
+    .banner{
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 30px;
+    }
+    #banner-title1{
+        font-size: 37px;
+    }
+    .playinstant1{
+
+    }
+    #banner-pic2{
+        width: 400px;
+        margin-left: 30%;
+    }
+    .playinstant{
+        flex-direction: column;
+    }
+    #playpara{
+        margin-left: 150px;
+    }
+    #play-img1{
+        width: 60%;
+        margin-left:100px;
+        position: relative;
+    }
+    #play-img2{
+        width: 50%;
+        margin-left: 30px;
+    }
+    .archade{
+        grid-template-columns: repeat(3,200px);
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .archade2{
+        grid-template-columns: repeat(3,200px);
+        padding-left: 20px;
+        padding-right: 30px;
+        margin-right: 30px;
+        justify-content: center;
+    }
+    .footer{
+        width: auto;
+        margin-left: 20%;
+    }
 }
