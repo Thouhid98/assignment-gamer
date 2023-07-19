@@ -223,6 +223,11 @@
     margin-top: 50px;
 }
 
+#games-img3:hover{
+    cursor: pointer;
+    color: #3C354F;
+}
+
 /* Play instantly section  */
 .playinstant{
     display: flex;
@@ -368,4 +373,103 @@
     font-family: Work Sans;
     font-size: 16px;
     font-weight: 500;
+}
+.footer-icons:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:576px) {
+   .nav-container{
+    flex-direction: column; 
+    margin-top: 30px;  
+   }
+   .web-title{
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+   }
+   .nav-ul{
+    flex-direction: column;
+    margin-top: -20px;
+    margin-bottom: 20px;
+   }
+   .banner{
+    flex-direction: column;
+    margin-top: 70px;
+   }
+   .banner-text{
+    width: 100%;
+   }
+   #banner-title1{
+    font-size: 30px;
+    margin-left:60px;
+   }
+   .banner-img{
+    width:100%;
+    margin-left: 50%;
+    margin-top: 40px;
+    margin-bottom: 0px;
+   }
+   .online-section{
+    grid-template-columns: none;    
+   }
+   #online-title{
+    font-size: 30px;
+    width: 70%;
+    margin-left: 20%;
+   }
+   #online-des{
+    width: 50%;
+    margin-left: 25%;
+   }
+   #games-img1{
+    width: 70%;
+   }
+   #games-img2{
+    width: 70%;
+   }
+   #games-img3{
+    width: 70%;
+   }
+   #games-img4{
+    width: 70%;
+   }
+   .playinstant{
+    flex-direction: column;
+   }
+   #play-img1{
+    margin-left: 20px;
+    height: 20px;
+   }
+   #play-img2{
+    width: 40%;
+   }
+   .playinstant-content{
+    text-align: center;
+   }
+   #play-title{
+    width: 70%;
+    font-size: 30px;
+   }
+   #playpara{
+    width: 70%;
+   }
+   .playinstant1{
+    margin: 20px;
+   }
+   .archade{
+    grid-template-columns: repeat(3, 20%);
+    margin-left: 0px;
+   }
+   .archade2{
+    grid-template-columns: repeat(3, 80px);
+    margin-left: 0px;
+   }
+   .footer-para{
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+   .footer-para2{
+    flex-wrap: wrap;
+   }
 }
